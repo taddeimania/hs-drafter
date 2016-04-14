@@ -157,7 +157,7 @@ var Card = Backbone.Model.extend({
 
 var CardCollection = Backbone.Collection.extend({
     model: Card,
-    url: '/dist/cards.json',
+    url: '/hs-drafter/dist/cards.json',
     parse: function(response) {
       return response.Naxxramas;
     }
